@@ -1,0 +1,22 @@
+<!ELEMENT Oglas (Automobil)+>
+
+<!ELEMENT Automobil (Proizvodjac,DatumIsteka,Cena,Oznaka,Text,(Email)+)>
+
+<!ELEMENT Proizvodjac (#PCDATA)>
+
+<!ELEMENT DatumIsteka (Dan,Mesec,Godina)>
+<!ELEMENT Dan (#PCDATA)>
+<!ELEMENT Mesec (#PCDATA)>
+<!ELEMENT Godina (#PCDATA)>
+
+<!ELEMENT Cena (#PCDATA)>
+<!ATTLIST Cena tip (dinari|euri) "dinari">
+
+<!ELEMENT Oznaka (oznaka1, oznaka2, oznaka3)>
+<!ELEMENT oznaka1 (#PCDATA)>
+<!ELEMENT oznaka2 (#PCDATA)>
+<!ELEMENT oznaka3 (#PCDATA)>
+<!ELEMENT Text (#PCDATA)>
+
+<!ELEMENT Email (#PCDATA)>
+<!ATTLIST Email tip (privatni|sluzbeni) #REQUIRED>
