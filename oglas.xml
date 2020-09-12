@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE oglas SYSTEM "oglas.dtd">
+<Oglas 	xmlns="http://www.w3schools.com"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.w3schools.com adresar.xsd">
+	<Automobil>
+		<Proizvodjac>Honda</Proizvodjac>
+		<DatumIsteka>
+		  <Dan>21</Dan>
+		  <Mesec>1</Mesec>
+		  <Godina>2021</Godina>
+		</DatumIsteka>
+		<Oznaka>
+		<oznaka1>honda</oznaka1>
+		<oznaka2>type s</oznaka2>
+		<oznaka3>ocuvan</oznaka3>
+		</Oznaka>
+		<text>Auto u odlicnom stanju, garaziran. Zapremina motora 2400ccm. Sve preporuke.</text>
+		<Cena valuta="din">200000</Cena>
+		<Email tip="privatni">polovniautomobili@gmail.com</Email>
+	</Automobil>
+	<Automobil>
+		<Proizvodjac>Renault</Proizvodjac>
+		<DatumIsteka>
+		  <Dan>9</Dan>
+		  <Mesec>5</Mesec>
+		  <Godina>2021</Godina>
+		</DatumIsteka>
+		<Oznaka>
+		<oznaka1>Renault</oznaka1>
+		<oznaka2>clio</oznaka2>
+		<oznaka3>garaziran</oznaka3>
+		</Oznaka>
+		<Tekst>Poštovani, dodjite da probamo da se dogovorimo,najavite Vaš dolazak.
+		Ako Vam dolazak predsatvlja problem, posaljite link vašeg vozila i recite koliko mozete da doplatite(dajte konkretnu ponudu).
+		Moramo da Vam skrenemo pažnju da vozilo koje nam nudite ne možemo da platimo po prodajnoj,tržišnoj vrednosti već po ceni po kojoj mi možemo da nabavimo isto takvo vozilo.</Tekst>
+		<Cena valuta="eur">15000</Cena>
+		<Email tip="sluzbeni">polovnavozila@gmail.com</Email>
+	</Automobil>
+	<Automobil>
+		<Proizvodjac>Hyundai</Proizvodjac>
+		<DatumIsteka>
+		  <Dan>10</Dan>
+		  <Mesec>12</Mesec>
+		  <Godina>2021</Godina>
+		</DatumIsteka>
+		<Oznaka>
+		<oznaka1>Hyundai</oznaka1>
+		<oznaka2>elantra</oznaka2>
+		<oznaka3>garaziran</oznaka3>
+		</Oznaka>
+		<Tekst>Usluzna prodaja, vozilo se nalazi u komisionoj prodaji i prodaje se od strane prvog vlasnika lično.
+		Automobil kuplje nov u Srbiji, prvi vlasnik, prva registracija 2020 godine. Garancija 5+2 godine.
+		Mala predjena kilometraza / aktuelni model HYUNDAI i30 vozila u Premium paketu opreme.</Tekst>
+		<Cena>3644329</Cena>
+		<Email tip="sluzbeni">polovnavozila@gmail.com</Email>
+		<Email tip="privatni">polovnavozila@hotmail.com</Email>
+	</Automobil>
+</Oglas>
